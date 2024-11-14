@@ -1,3 +1,4 @@
+import time
 rawstr =  2
 try:
     ival = int(rawstr)
@@ -40,3 +41,13 @@ def greet(lang):
 print(greet("en"),"Glenn")
 print(greet("es"),"Sally")
 print(greet("fr"),"Michael")
+
+
+n = 5
+while n > 0:
+    print(n)
+    n = n -1
+    time.sleep(1)
+print("Blastoff!!!!", "🚀")
+print(n)
+    
